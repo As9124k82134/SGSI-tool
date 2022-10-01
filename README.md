@@ -22,8 +22,8 @@
 ## Setup
 ```
 GitHub:  
-git clone --recurse-submodules https://github.com/As9124k82134/sGSI-tool -b android-11
-cd SGSIs
+git clone --recurse-submodules https://github.com/As9124k82134/sGSI-tool -b android-11 tool-11
+cd tool-11
 su
 chmod -R 777 ./
 ./setup.sh  
