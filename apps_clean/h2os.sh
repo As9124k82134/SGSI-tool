@@ -6,15 +6,11 @@ systemdir=$1
 rm -rf $1/reserve/*
 rm -rf $1/product/data-app/*
 rm -rf $1/product/app/TrichromeLibrary
-rm -rf $1/product/media/audio/alarms/*
-rm -rf $1/product/media/audio/notifications/*
-rm -rf $1/product/media/audio/ringtones/*
 # Nuke OnePlus useless app apks
 rm -rf $1/app/GooglePay
 rm -rf $1/app/Netflix_Activation
 rm -rf $1/app/Netflix_Stub
 rm -rf $1/app/OPYellowpage
-rm -rf $1/app/OPWallpaperResources
 rm -rf $1/app/OEMLogKit
 rm -rf $1/app/OPBackup
 rm -rf $1/app/QQBrowser
@@ -34,12 +30,9 @@ rm -rf $1/app/aptxals
 rm -rf $1/app/LogKitSdService
 rm -rf $1/app/OPBugReportLite
 rm -rf $1/app/OPCommonLogTool
-rm -rf $1/app/OPIntelliService
-rm -rf $1/app/OPTelephonyDiagnoseManager
 rm -rf $1/app/OemAutoTestServer
 rm -rf $1/app/OpLogkit
 rm -rf $1/app/SmscPlugger
-rm -rf $1/app/OPInstantTranslation
 rm -rf $1/app/Calendar
 rm -rf $1/app/Exchange2
 rm -rf $1/app/NFCTestMode
@@ -49,8 +42,6 @@ rm -rf $1/app/OPFindMyPhoneUtils
 rm -rf $1/app/OposAds
 rm -rf $1/app/QColor
 rm -rf $1/app/SensorTestTool
-rm -rf $1/app/SoterService
-rm -rf $1/app/SoundRecorder
 rm -rf $1/app/nearme
 rm -rf $1/app/heytap_mcs_cn
 rm -rf $1/app/WifiRfTestApk
@@ -59,12 +50,8 @@ rm -rf $1/app/ARCore_stub
 rm -rf $1/app/CompanionDeviceManager
 rm -rf $1/app/aptxals
 rm -rf $1/app/aptxui
-rm -rf $1/priv-app/OnePlusCamera
-rm -rf $1/priv-app/OnePlusGallery
 rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/CtsShimPrivPrebuilt
-rm -rf $1/priv-app/HotwordEnrollmentXGoogleWCD9340
-rm -rf $1/priv-app/HotwordEnrollmentOKGoogleWCD9340
 rm -rf $1/priv-app/subsdm
 rm -rf $1/priv-app/TSDM
 rm -rf $1/priv-app/TagGoogle
@@ -82,7 +69,6 @@ rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/IFAAService
 rm -rf $1/priv-app/NearmeBrowser
 rm -rf $1/priv-app/OPFindMyPhone
-rm -rf $1/priv-app/OPMarket
 rm -rf $1/priv-app/OPVoiceAssistant
 rm -rf $1/priv-app/OPVoiceWakeUp
 rm -rf $1/priv-app/Tag
@@ -124,10 +110,8 @@ rm -rf $1/product/priv-app/GoogleFeedback
 rm -rf $1/product/priv-app/LiveCaption
 rm -rf $1/product/priv-app/QAS_DVC_MSP
 rm -rf $1/product/priv-app/Velvet
-rm -rf $1/product/priv-app/HotwordEnrollmentXGoogleHEXAGON
 rm -rf $1/product/priv-app/OobConfig
 rm -rf $1/product/priv-app/Turbo
-rm -rf $1/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON
 
 # Nuke OnePlus useless india apks
 rm -rf $1/india/app/HeytapIdProvider
@@ -136,8 +120,5 @@ rm -rf $1/india/app/OPMemberShip
 rm -rf $1/india/app/OPSilentInstaller
 rm -rf $1/india/app/heytap_mcs_in
 rm -rf $1/india/priv-app/CloudService
-rm -rf $1/india/priv-app/IndiaOPRoamingServiceRelease
 rm -rf $1/india/priv-app/OPWorkLifeBalance
 rm -rf $1/india/reserve/EpicGameApp
-rm -rf $1/india/reserve/IndiaOPRoamingAppRelease
-rm -rf $1/india/reserve/OPNote
