@@ -4,6 +4,7 @@ LOCALDIR=`cd "$( dirname ${BASH_SOURCE[0]} )" && pwd`
 cd $LOCALDIR
 systemdir=$1
 rm -rf $1/data-app/*
+rm -rf $1/priv-app/MIUIAod
 rm -rf $1/priv-app/MIUIBrowser
 rm -rf $1/priv-app/MIUIContentExtension
 rm -rf $1/priv-app/Mirror
@@ -103,7 +104,7 @@ rm -rf $1/priv-app/MiGameCenterSDKService
 rm -rf $1/priv-app/MiRcs
 rm -rf $1/priv-app/NewHome
 
-app_list="InMIpay MIDrop MiLinkGlobal MIUIFileExplorer MIUIHealthGlobal MIUIMiPicks MIUITouchAssistantGlobal XMSFKeepekAll MIShare* MIUIYellowPage* DeviceInfo dpmserviceapp EmergencyInfo GoogleFeedback WfdService MiRecycle MiPay MiRadio"
+app_list="InMIpay MIDrop MiLinkGlobal MIUIFileExplorer MIUIHealthGlobal MIUIMiPicks MIUITouchAssistantGlobal XMSFKeepekAll MIShare* MIUIYellowPage* DeviceInfo dpmserviceapp EmergencyInfo GoogleFeedback WfdService MiuiAod MiRecycle MiPay MiRadio"
 for app in $app_list; do
 rm -rf $1/*app/$app
 rm -rf $1/*/*app/$app
