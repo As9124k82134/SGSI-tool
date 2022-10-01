@@ -37,8 +37,6 @@ rm -rf $1/app/dsgame
 rm -rf $1/priv-app/dsgame
 rm -rf $1/app/mznfcpay
 rm -rf $1/priv-app/mznfcpay
-rm -rf $1/app/notepaper
-rm -rf $1/priv-app/notepaper
 rm -rf $1/app/pay
 rm -rf $1/app/pedometer
 rm -rf $1/app/safe

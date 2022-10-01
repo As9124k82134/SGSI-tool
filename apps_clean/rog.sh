@@ -65,7 +65,6 @@ rm -rf $1/priv-app/MyASUS
 rm -rf $1/priv-app/NextApp
 rm -rf $1/priv-app/ONS
 rm -rf $1/priv-app/TwinViewLauncher
-rm -rf $1/priv-app/WeatherTime
 rm -rf $1/priv-app/YandexApp
 rm -rf $1/priv-app/YandexBrowser
 rm -rf $1/priv-app/ZenUIHelp
@@ -81,7 +80,6 @@ rm -rf $1/product/app/YTMusic
 rm -rf $1/product/app/YouTube
 rm -rf $1/product/app/talkback
 rm -rf $1/product/priv-app/Turbo
-
 
 app_list="Amight AsusBoost AsusHBM AsusPAIStubR ATOKIME FocusAppListener JakartaBaca mangaDeals NePlayer NetflixActivation OpenBeta SMMI_TOOL UNISONAIR AlwaysOn AsusDataTransfer DiracAudioControlService LogUploader* MyASUS ZenMotion Tag ASUSAR"
 for app in $app_list; do

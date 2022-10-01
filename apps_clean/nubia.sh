@@ -27,7 +27,6 @@ rm -rf $1/*/*app/*OTA*
 rm -rf $1/*app/*OTA*
 rm -rf $1/*app/*ppstore*
 rm -rf $1/*/*app/*ppstore*
-rm -rf $1/*app/*Game*
 
 rm -rf $1/app/HarassIntercept*
 rm -rf $1/app/Jobdispatcer*
@@ -56,7 +55,6 @@ rm -rf $1/app/FactoryTestAdvanced
 rm -rf $1/app/GoodixTest
 rm -rf $1/app/NBVirtualGameHandle
 rm -rf $1/app/NubiaFastPair
-rm -rf $1/app/Stk
 rm -rf $1/app/SystemUpdate_v1.1
 rm -rf $1/app/TP_YulorePage_v1.0.0
 rm -rf $1/app/ZNubiaEdge

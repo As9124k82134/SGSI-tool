@@ -34,7 +34,6 @@ rm -rf $1/app/Calculator2
 rm -rf $1/app/ChildrenSpace
 rm -rf $1/app/EmailPartnerProvider
 rm -rf $1/app/FindMyPhoneClient
-rm -rf $1/app/Ocrscanner
 rm -rf $1/app/Oshare
 rm -rf $1/app/OV*
 rm -rf $1/app/com.*
@@ -70,7 +69,6 @@ rm -rf $1/priv-app/KeKeMarket
 rm -rf $1/priv-app/KeKePay
 rm -rf $1/priv-app/KeKeUserCenter
 rm -rf $1/app/NXPNfcNci
-rm -rf $1/app/OcrScanner
 rm -rf $1/app/OcrService
 rm -rf $1/fonts/D*
 rm -rf $1/fonts/Source*

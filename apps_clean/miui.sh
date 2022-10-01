@@ -9,7 +9,6 @@ rm -rf $1/priv-app/MIUIBrowser
 rm -rf $1/priv-app/MIUIContentExtension
 rm -rf $1/priv-app/Mirror
 rm -rf $1/priv-app/MIService
-rm -rf $1/priv-app/Traceur
 rm -rf $1/priv-app/Tag
 rm -rf $1/priv-app/Voice*
 rm -rf $1/priv-app/MIUIShare
@@ -65,7 +64,6 @@ rm -rf $1/app/FidoAuthen
 rm -rf $1/app/MiuiFrequentPhrase
 rm -rf $1/app/FidoClient
 rm -rf $1/app/MiDrive
-rm -rf $1/app/Traceur
 rm -rf $1/app/wps-lite
 rm -rf $1/app/CatcherPatch
 rm -rf $1/app/Protips

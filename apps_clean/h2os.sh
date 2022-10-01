@@ -65,7 +65,6 @@ rm -rf $1/priv-app/AutoNaviNLP
 rm -rf $1/priv-app/BlockedNumberProvider
 rm -rf $1/priv-app/CallLogBackup
 rm -rf $1/priv-app/EmergencyInfo
-rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/IFAAService
 rm -rf $1/priv-app/NearmeBrowser
 rm -rf $1/priv-app/OPFindMyPhone
