@@ -16,9 +16,9 @@ dependency_install(){
     if [[ "$OSTYPE" == "linux-gnu" ]]; then
         echo -e "\033[33m [$INFO_STR] $DETECTED_LINUX \033[0m"
         echo -e "\033[33m [$INFO_STR] $INSTPKG_WITH_APT ... \033[0m"
-        sudo apt update && sudo apt upgrade -y
-        sudo apt install git p7zip curl wget unace unrar zip unzip p7zip-full p7zip-rar sharutils uudeview mpack arj cabextract file-roller aptitude device-tree-compiler liblzma-dev liblz4-tool gawk aria2 selinux-utils busybox rename squashfs-tools brotli lz4 bc -y
-        sudo apt update --fix-missing
+        sudo apt -qq update && sudo apt -qq upgrade -y
+        sudo apt -qq install git p7zip curl wget unace unrar zip unzip p7zip-full p7zip-rar sharutils uudeview mpack arj cabextract file-roller aptitude device-tree-compiler liblzma-dev liblz4-tool gawk aria2 selinux-utils busybox rename squashfs-tools brotli lz4 bc -y
+        sudo apt -qq update --fix-missing
         
     elif [[ "$OSTYPE" == "darwin"* ]]; then
         echo -e "\033[33m [$INFO_STR] $DETECTED_MAC \033[0m"
@@ -29,12 +29,12 @@ dependency_install(){
 
 python_install(){
         echo -e "\033[33m [$INFO_STR] $PY2ANDPIP_INST ... \033[0m"
-        sudo apt-get --purge remove -y python3-pip
-        sudo apt install python aptitude -y
+        sudo apt-get -qq --purge remove -y python3-pip
+        sudo apt -qq install python aptitude -y
         sudo aptitude install python-dev -y
         sudo add-apt-repository universe
         sudo python get-pip.py
-        sudo apt install python3 python3-pip -y
+        sudo apt install -qq python3 python3-pip -y
 }
 
 pip_module_install(){
