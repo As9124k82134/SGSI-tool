@@ -41,7 +41,7 @@ python_install(){
         sudo aptitude install python-dev -y
         sudo add-apt-repository universe
         sudo python get-pip.py
-        sudo apt install -qq python3 python3-pip -y
+        sudo apt -qq install python3 python3-pip -y
 }
 
 pip_module_install(){
