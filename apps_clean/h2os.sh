@@ -39,7 +39,6 @@ rm -rf $1/app/OPFindMyPhoneUtils
 rm -rf $1/app/OposAds
 rm -rf $1/app/QColor
 rm -rf $1/app/SensorTestTool
-rm -rf $1/app/SoterService
 rm -rf $1/app/nearme
 rm -rf $1/app/heytap_mcs_cn
 rm -rf $1/app/WifiRfTestApk

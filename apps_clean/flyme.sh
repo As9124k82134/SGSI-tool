@@ -6,9 +6,6 @@ cd $LOCALDIR
 systemdir=$1
 rm -rf $1/product/data-app/*
 rm -rf $1/product/app/TrichromeLibrary
-rm -rf $1/product/media/audio/alarms/*
-rm -rf $1/product/media/audio/notifications/*
-rm -rf $1/product/media/audio/ringtones/*
 rm -rf $1/app/Drive
 rm -rf $1/app/Duo
 rm -rf $1/app/Calculator
@@ -19,14 +16,12 @@ rm -rf $1/product/app/Chrome
 rm -rf $1/app/YouTube
 rm -rf $1/app/talkback
 rm -rf $1/product/app/talkback
-rm -rf $1/product/app/MarkupGoogle
 rm -rf $1/app/CalendarGoogle
 rm -rf $1/app/Photos
 rm -rf $1/app/GooglePay
 rm -rf $1/app/Music2
 rm -rf $1/priv-app/Turbo
 rm -rf $1/app/PaymentService
-rm -rf $1/app/Music
 rm -rf $1/app/alphame
 rm -rf $1/app/assistans
 rm -rf $1/priv-app/assistans
@@ -36,9 +31,6 @@ rm -rf $1/app/picker
 rm -rf $1/priv-app/picker
 rm -rf $1/app/mstore
 rm -rf $1/priv-app/mstore
-rm -rf $1/app/calculator
-rm -rf $1/priv-app/calculator
-rm -rf $1/priv-app/camera
 rm -rf $1/app/dsgame
 rm -rf $1/priv-app/dsgame
 rm -rf $1/app/mznfcpay
@@ -65,26 +57,22 @@ rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/wt_logcat
 rm -rf $1/app/MzUpdate*
 rm -rf $1/app/Updater
-rm -rf $1/MzApp/Game*
 rm -rf $1/MzApp/Life
 rm -rf $1/MzApp/MzStore
 rm -rf $1/MzApp/Reader
 rm -rf $1/MzApp/VideoClips
 
 rm -rf $1/app/AlwaysOnDisplay
-rm -rf $1/app/AppCenter
 rm -rf $1/app/BasicDreams
 rm -rf $1/app/Bridge
 rm -rf $1/app/CosMaster
 rm -rf $1/app/MzCloudService
 rm -rf $1/app/MzUCService
 rm -rf $1/app/MzPay
-rm -rf $1/app/MzSecurity
 rm -rf $1/app/MzShare
 rm -rf $1/app/MzSyncService
 rm -rf $1/app/Protips
 rm -rf $1/MzApp/ARruler
-rm -rf $1/MzApp/Calculator
 rm -rf $1/MzApp/DsGame
 rm -rf $1/MzApp/Email
 rm -rf $1/MzApp/Pedometer

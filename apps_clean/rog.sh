@@ -15,9 +15,7 @@ rm -rf $1/app/TwinAppsService
 rm -rf $1/priv-app/AsusDataTransfer
 rm -rf $1/priv-app/Facebook*
 rm -rf $1/priv-app/NextApp
-rm -rf $1/priv-app/ROGAirTrigger
 rm -rf $1/priv-app/SmartReading
-rm -rf $1/priv-app/WeatherTime
 rm -rf $1/priv-app/YandexApp
 rm -rf $1/priv-app/YandexBrowser
 rm -rf $1/product/app/ARCore
